@@ -1,0 +1,104 @@
+html, body {
+    background-color: rgb(224, 219, 219);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.centro{
+    margin: auto;
+    display: flex;
+}
+
+.conteudo{
+  margin: auto;
+}
+
+.nav{
+  background: black;
+}
+
+.link{
+  margin: auto;
+}
+
+.cabecalho{
+  background-color: black;
+}
+
+.okG{
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 100px;
+}
+
+
+.p-2{
+  margin-top: auto;
+  margin-bottom: auto;
+  color: white;
+}
+
+.main{
+  border: 2px solid black;
+  height: 300px;
+  align-items: center;
+  background: rgb(28, 28, 28);
+  justify-content: center;
+}
+
+.sound{
+  border-bottom: 2px solid rgb(0, 0, 0);
+  border-right: 2px solid rgb(0, 0, 0);
+  border-left: 2px solid rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0);
+  height: 50px;
+  align-items: center;
+}
+
+.circulo{
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background: red;
+  position: absolute;
+  bottom: -5px;
+  right: -1px;
+}
+
+.pause{
+  
+  padding: 0;
+}
+.play{
+  
+  padding: 0;
+}
+
+.barra{
+  width: 100%;
+  height: 10px;
+  border-radius: 5px;
+  background-color: red;
+  align-items: center;
+  position: relative;
+}
+
+.sensor{
+  width: 300px;
+  display: none;
+  justify-content: center;
+  justify-items: center;
+  border-radius: 10px;
+  margin-top: auto;
+  border: 2px solid blue;
+  
+
+}
+
+.sensor p {
+  margin: auto;
+}

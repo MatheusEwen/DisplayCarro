@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/contatos.css">
+    <title>Computador de bordo</title>
+  </head>
+
+  <body>
+    <div class="centro">
+      <div class="conteudo">
+        <div class="row cabecalho">
+          <div class="col-1 link">
+            <img class="imgNav" src="../imgs/engrenagem.png" alt="" />
+          </div>
+          <div class="col-1 link ms-4">
+            <a href="index.html"><img class="imgNav" src="../imgs/inicial.png" alt="" /></a>
+          </div>
+          <div class="col-1 link ms-1">
+            <img class="imgNav" src="../imgs/spotify.png" alt="" />
+          </div>
+          <div class="col-1 link ms-1">
+            <img class="imgNav" src="../imgs/ligar.png" alt="" />
+          </div>
+          <div class="col-1 link ms-1">
+            <img class="imgNav" src="../imgs/radio.png" alt="" />
+          </div>
+          <div class="col-1 link ms-1">
+            <img class="imgNav" src="../imgs/waze.png" alt="" />
+          </div>
+          <div class="col-3 d-flex justify-content-end okG">
+            <p class="p-2">Ok Google</p>
+            <img class="imgNav" src="../imgs/voz-do-google.png" alt="" />
+          </div>
+        </div>
+
+        <div class="main row">
+           <div class="adicionar col">
+            <p class="fs-3 text-center">Adicionar contato</p>
+            <form>
+              <div class="row mb-3">
+                <label for="inputName" class="col-sm-2 col-form-label">Nome</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="inputName">
+                </div>
+              </div>
+              <div class="row mb-2">
+                <label for="inputTel" class="col-sm-2 col-form-label">Telefone</label>
+                <div class="col-sm-10">
+                  <input type="tel" class="form-control" id="inputTel">
+                </div>
+              </div>
+              <fieldset class="row mb-2">
+                <legend class="col-form-label col-sm-2 pt-0">Avisar</legend>
+                <div class="col-sm-10">
+                  <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                    <label class="form-check-label" for="flexSwitchCheckDefault">Mensagem automática</label>
+                  </div>
+                </div>
+              </fieldset>
+              <div class="d-grid gap-2">
+                <button class="btn btn-success" type="button">Gravar</button>
+              </div>
+            </form>  
+           </div>
+           <div class="contatos col">
+            <p class="fs-3 text-center mb-5">Lista de contatos</p>
+            <table class="table text-center">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Nome</th>
+                  <th scope="col">Numero</th>
+                  <th scope="col">Ação</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Lucas</td>
+                  <td>+11 9547845</td>
+                  <td><img src="../imgs/escrever.png" alt="">|<img src="../imgs/botao-excluir.png" alt=""></td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Matheus</td>
+                  <td>+11 8794597</td>
+                  <td><img src="../imgs/escrever.png" alt="">|<img src="../imgs/botao-excluir.png" alt="">
+                </tr>
+               
+              </tbody>
+            </table>
+           </div>
+        </div>
+        <div class="row barraDigitos">
+          <div class="digitos">
+            <div class="digito">A</div>
+            <div class="digito">B</div>
+            <div class="digito">C</div>
+            <div class="digito">D</div>
+            <div class="digito">E</div>
+            <div class="digito">F</div>
+            <div class="digito">G</div>
+            <div class="digito">H</div>
+            <div class="digito">I</div>
+            <div class="digito">J</div>
+            <div class="digito">K</div>
+            <div class="digito">L</div>
+            <div class="digito">M</div>
+            <div class="digito">N</div>
+            <div class="digito">O</div>
+            <div class="digito">P</div>
+            <div class="digito">Q</div>
+            <div class="digito">R</div>
+            <div class="digito">S</div>
+            <div class="digito">T</div>
+            <div class="digito">U</div>
+            <div class="digito">V</div>
+            <div class="digito">W</div>
+            <div class="digito">X</div>
+            <div class="digito">Y</div>
+            <div class="digito">Z</div>
+            <div class="digito">0</div>
+            <div class="digito">1</div>
+            <div class="digito">2</div>
+            <div class="digito">3</div>
+            <div class="digito">4</div>
+            <div class="digito">5</div>
+            <div class="digito">6</div>
+            <div class="digito">7</div>
+            <div class="digito">8</div>
+            <div class="digito">9</div>
+            <div class=""><button class="btn btn-success confirmar">ok</button></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>

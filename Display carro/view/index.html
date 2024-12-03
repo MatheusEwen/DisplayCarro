@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/home.css" />
+    <link rel="stylesheet" href="../css/scrollCards.css">
+    <title>Computador de bordo</title>
+  </head>
+
+  <body>
+    <div class="centro">
+      <div class="conteudo">
+        <div class="row cabecalho">
+          <div class="col-1 link">
+            <img class="imgNav" src="../imgs/engrenagem.png" alt="" />
+          </div>
+            <div class="col-1 link ms-4">
+              <a href="index.html">
+                <img class="imgNav" src="../imgs/inicial.png" alt="" />
+              </a>
+            </div>
+          <div class="col-1 link ms-1">
+            <img class="imgNav" src="../imgs/spotify.png" alt="" />
+          </div>
+          <div class="col-1 link ms-1">
+            <img class="imgNav" src="../imgs/ligar.png" alt="" />
+          </div>
+          <div class="col-1 link ms-1">
+            <img class="imgNav" src="../imgs/radio.png" alt="" />
+          </div>
+          <div class="col-1 link ms-1">
+            <img class="imgNav" src="../imgs/waze.png" alt="" />
+          </div>
+          <div class="col-3 d-flex justify-content-end okG">
+            <p class="p-2">Ok Google</p>
+            <img class="imgNav" src="../imgs/voz-do-google.png" alt="" />
+          </div>
+        </div>
+
+        <div class="main row">
+          <div class="sensor" id="sensor">
+            <span id="txtSensor"></span>
+          </div>
+          <div class="wrapper">
+              <div class="card card-1" id="botaoLuz" >
+                <img id="luz" class="funcionalidade" src="../imgs/lampApagada.png" alt="">
+              </div>
+              <div class="card card-2" id="botaoGaragem">
+                <img id="garagem" class="funcionalidade" src="../imgs/garagemFechada.png" alt="">
+              </div>
+              <a href="viewContatos.html">
+                <div class="card card-3">
+                  <img class="funcionalidade" src="../imgs/balaoMensagem.png" alt="">
+                </div>
+              </a>
+              <div class="card card-4" id="botaoSensor">
+                <img class="funcionalidade" src="../imgs/sensorMovimento.png" alt="">
+              </div>
+              <a href="viewRelatorio.html">
+                <div class="card card-5">
+                  <img class="funcionalidade" src="../imgs/relatorio.png" alt="">
+                </div>
+              </a>
+              <div class="card card-6">
+                <img class="funcionalidade" src="../imgs/icons8-adicionar-100.png" alt="">
+              </div>
+          </div>
+        </div>
+
+        <div class="sound row">
+          <div class="play col col-1 d-flex justify-content-end">
+            <img src="../imgs/play.png" alt="">
+          </div>
+          <div class="pause col col-1 d-flex justify-content-start">
+            <img src="../imgs/pause.png" alt="">
+          </div>
+          <div class="barra col">
+            <div class="circulo"></div>
+          </div>
+          <div class="back col col-1 d-flex justify-content-end">
+            <img src="../imgs/back.png" alt="">
+          </div>
+          <div class="next col col-1 d-flex justify-content-start">
+            <img src="../imgs/next.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/home.js"></script>
+  </body>
+</html>
